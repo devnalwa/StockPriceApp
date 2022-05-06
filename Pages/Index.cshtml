@@ -1,0 +1,33 @@
+﻿@page
+
+ <div class="container">
+    <div class="row">&nbsp;</div>
+        <div class="row">
+            <div class="col-1">MSFT:</div>
+            <div class="col-3"><input type="text"  style="font-size: 16px;font-weight: bold;" id="msftPrice" value="0.00" disabled="true"/></div>
+            <div class="col-2"><input type="button" id="subscribeMsft" value="Subscribe" /></div>
+            <div class="col-2"><input type="button" id="unsubscribeMsft" value="Unsubscribe" /></div>
+
+        </div>
+        <div class="row">
+            <div class="col-1">AMZN:</div>
+            <div class="col-3"><input type="text"  style="font-size: 16px;font-weight: bold;" id="amznPrice" value="0.00" disabled="true" /></div>
+            <div class="col-2"><input type="button" id="subscribeAmzn" value="Subscribe" /></div>
+            <div class="col-2"><input type="button" id="unsubscribeAmzn" value="Unsubscribe" /></div>
+        </div>
+       <div class="row">
+            <div class="col-1">AAPL:</div>
+            <div class="col-3"><input type="text" style="font-size: 16px;font-weight: bold;" id="aaplPrice" value="0.00" disabled="true" /></div>
+            <div class="col-2"><input type="button" id="subscribeAapl" value="Subscribe" /></div>
+            <div class="col-2"><input type="button" id="unsubscribeAapl" value="Unsubscribe" /></div>
+
+        </div>
+ </div>
+
+
+
+
+
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/price.js"></script>
+
